@@ -1,0 +1,64 @@
+header {
+    background-image: url("./../images/headerfone.svg");
+    @extend %bg-image;
+    align-items: center;
+    
+    .container {
+        @extend %display-flex;
+        justify-content: center;
+        text-align: center;
+
+        .header {
+        max-width: 750px;
+        height: 100vh;
+        min-height: 815px;
+        
+            h1 {
+                font-size: 60px;
+                font-weight: 100;
+                padding-bottom: 45px;
+                padding-top: 225px;
+            }
+
+            .iconplay {
+                padding-bottom: 45px;
+                height: 60px;
+                margin-bottom: 60px;
+
+                img .iconplay {
+                    &:hover {
+                        transition: .5s;
+                        background: transparent;
+                    }
+                }
+            }
+
+            .header_button-for-video {
+                background: red;
+                color: white;
+                border: red 2px solid;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 20px 60px;
+                margin-top: 40px;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 200;
+            
+                &:hover {
+                    transition: .5s;
+                    background: transparent;
+                    color: red;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    font-weight:bold; 
+                }
+            }
+
+            .header_text-under-video {
+                margin-top: auto;
+            }
+
+        }
+    }
+}

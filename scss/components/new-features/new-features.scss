@@ -1,0 +1,40 @@
+.new-features {
+    background-color: #f6f5f3;
+    text-align: center;
+
+    .new-features__top {
+        align-items: center;
+        text-align: center;
+
+        .pic-1__new-features {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title__new-features {
+
+            .title__new-features_p {
+                color: red;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            .title__new-features_h2 {
+                font-size: 40px;
+            }
+        }
+
+        .pic-2__new-features {
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .new-features__bottom {
+
+        .describe-features_h3 {
+            font-weight: bold;
+        }
+    }
+
+}

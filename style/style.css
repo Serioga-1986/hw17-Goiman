@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;400;600&display=swap");
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.section-newdesign, header {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1440px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 992px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 576px;
+  }
+}
+header {
+  background-image: url("./../images/headerfone.svg");
+  align-items: center;
+}
+header .container {
+  justify-content: center;
+  text-align: center;
+}
+header .container .header {
+  max-width: 750px;
+  height: 100vh;
+  min-height: 815px;
+}
+header .container .header h1 {
+  font-size: 60px;
+  font-weight: 100;
+  padding-bottom: 45px;
+  padding-top: 225px;
+}
+header .container .header .iconplay {
+  padding-bottom: 45px;
+  height: 60px;
+  margin-bottom: 60px;
+}
+header .container .header .iconplay img .iconplay:hover {
+  transition: 0.5s;
+  background: transparent;
+}
+header .container .header .header_button-for-video {
+  background: red;
+  color: white;
+  border: red 2px solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 60px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 200;
+}
+header .container .header .header_button-for-video:hover {
+  transition: 0.5s;
+  background: transparent;
+  color: red;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+header .container .header .header_text-under-video {
+  margin-top: auto;
+}
+
+.section-newdesign {
+  height: 80vh;
+  min-height: 720px;
+  align-items: center;
+  background-image: url("./../images/triangle_for_bg.png");
+  background-position: right;
+  background-color: white;
+  background-size: unset;
+  background-attachment: unset;
+}
+.section-newdesign .newdesign {
+  padding-left: 10vh;
+  padding-top: 40vh;
+  height: 120vh;
+}
+.section-newdesign .newdesign .newdesign-left {
+  padding-right: 30vh;
+  align-items: center;
+}
+.section-newdesign .newdesign .newdesign-left .newdesign__title1 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.section-newdesign .newdesign .newdesign-left .newdesign__title2 {
+  font-size: 40px;
+}
+
+.new-features {
+  background-color: #f6f5f3;
+  text-align: center;
+}
+.new-features .new-features__top {
+  align-items: center;
+  text-align: center;
+}
+.new-features .new-features__top .pic-1__new-features {
+  align-items: center;
+  justify-content: center;
+}
+.new-features .new-features__top .title__new-features .title__new-features_p {
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.new-features .new-features__top .title__new-features .title__new-features_h2 {
+  font-size: 40px;
+}
+.new-features .new-features__top .pic-2__new-features {
+  align-items: center;
+  justify-content: center;
+}
+.new-features .new-features__bottom .describe-features_h3 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    a {
+        text-decoration: none;
+    }
+
+    font-family: $font-site;
+}
+
+.container {
+    min-width: $min-width_content;
+    margin: 0 auto;
+}
+
+@media(min-width: $bp_xxl) {
+    .container {
+        width: $min-width_content;
+    }
+}
+
+@media(min-width: $bp_xl) {
+    .container {
+        width: $bp_lg;
+    }
+}
+
+@media(min-width: $bp_lg) {
+    .container {
+        width: $bp_md;
+    }
+}
+
+@media(min-width: $bp_md) {
+    .container {
+        width: $bp_sm;
+    }
+}
+
